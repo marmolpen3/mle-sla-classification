@@ -1,0 +1,59 @@
+text,service,metric,objetive,remedies,claim,exception,definition
+"Last Updated: May 25, 2022 This Amazon Compute Service Level Agreement (this “SLA”) is a policy governing the use of Amazon Elastic Compute Cloud (“Amazon EC2”)* and applies separately to each account using Amazon EC2.",1,0,0,0,0,0,0
+"In the event of a conflict between the terms of this SLA and the terms of the AWS Customer Agreement or other agreement with us governing your use of our Services (the “Agreement”), the terms and conditions of this SLA apply, but only to the extent of such conflict.",1,0,0,0,0,0,0
+"*For purposes of this SLA, Amazon EC2 includes any Amazon Elastic Graphics, Amazon Elastic Inference, and Elastic IP Address resources purchased with the relevant Amazon EC2 instance(s).",1,0,0,0,0,0,0
+"SLAs AWS makes two SLA commitments for Amazon EC2: (1) a Region-Level SLA that governs Amazon EC2 deployed across multiple AZs or regions, and (2) an Instance-Level SLA that governs Amazon EC2 instances individually.",1,0,1,0,0,0,0
+"Region-Level SLA For Amazon EC2 with all running instances deployed concurrently across two or more AZs in the same region (or at least two regions if there is only one AZ in a given region)",1,0,1,0,0,0,0
+"AWS will use commercially reasonable efforts to make Amazon EC2 available for each AWS region with a Monthly Uptime Percentage of at least 99.99%, in each case during any monthly billing cycle (the “Region-Level SLA”).",0,1,1,0,0,0,0
+"In the event Amazon EC2 does not meet the Region-Level SLA, you will be eligible to receive a Service Credit as described below.",0,0,0,1,0,0,0
+"Monthly Uptime Percentage	Service Credit Percentage Less than 99.99% but equal to or greater than 99.0%	10%",0,1,1,1,0,0,0
+"Less than 99.0% but equal to or greater than 95.0%	30%",0,0,1,1,0,0,0
+"Less than 95.0%	100%",0,0,1,1,0,0,0
+"Instance-Level SLA For each individual Amazon EC2 instance (“Single EC2 Instance”), AWS will use commercially reasonable efforts to make the Single EC2 Instance available with an Instance-Level Uptime Percentage of at least 99.5%, in each case during any monthly billing cycle (the “Instance-Level SLA”).",0,1,1,0,0,0,0
+"In the event any Single EC2 Instance does not meet the Instance-Level SLA, you will be eligible to receive a Service Credit as described below.",0,0,0,1,0,0,0
+"Instance-Level Uptime Percentage	Service Credit Percentage Less than 99.5% but equal to or greater than 99.0%	10%",0,1,1,1,0,0,0
+"Less than 99.0% but equal to or greater than 95.0%	30%",0,0,1,1,0,0,0
+"Less than 95.0%	100%",0,0,1,1,0,0,0
+"Note: In addition to the Instance-Level SLA, AWS will not charge you for any Single EC2 Instance that is Unavailable for more than six minutes of a clockhour.",0,1,1,0,0,0,0
+"This applies automatically and you do not need to request credit for any such hour with more than six minutes of Unavailability.",0,0,0,1,0,0,0
+"SLA Credits Service Credits are calculated as a percentage of the monthly bill (excluding one-time payments such as upfront payments made for Reserved Instances) for Amazon EC2 in the affected AWS region that did not meet the Region-Level SLA, or for the Single EC2 Instance in the AWS region that did not meet the Instance-Level SLA, respectively.",0,1,0,0,0,0,0
+"We will apply any Service Credits only against future payments for Amazon EC2 otherwise due from you.",0,0,0,1,0,0,0
+"At our discretion, we may issue the Service Credit to the credit card you used to pay for the billing cycle in which the Unavailability occurred.",0,0,0,1,0,0,0
+"Service Credits will not entitle you to any refund or other payment from AWS.",0,0,0,1,0,0,0
+"A Service Credit will be applicable and issued only if the credit amount for the applicable monthly billing cycle is greater than one dollar ($1 USD).",0,0,0,1,0,0,0
+"Service Credits may not be transferred or applied to any other account.",0,0,0,1,0,0,0
+"Credit Request and Payment Procedures To receive a Service Credit, you must submit a claim by opening a case in the AWS Support Center.",0,0,0,0,1,0,0
+"You may only submit a claim under either the Region-Level SLA or the Instance-Level SLA, as these claims cannot be combined or stacked for a particular Single EC2 Instance.",0,0,0,0,1,0,0
+"Your credit request must be received by us by the end of the second billing cycle after which the incident occurred and must include the information specified below for the Region-Level SLA and Instance-Level SLA, respectively.",0,0,0,0,1,0,0
+"Region-Level SLA requests must include: 1.	the words “Amazon Compute SLA Credit Request – Region-Level Claim” in the subject line; 2.	the dates, times, and affected AWS region of each Unavailability incident that you are claiming; 3.	the resource IDs for Amazon EC2; and 4.	your request logs that document the errors and corroborate your claimed outage**.",0,0,0,0,1,0,0
+"Instance-Level SLA requests must include:  1.	the words “Amazon Compute SLA Credit Request – Instance-Level Claim” in the subject line; 2.	the dates, times, and the affected AWS region and AZ of each Unavailability incident that you are claiming; 3.	the resource IDs for the affected Single EC2 Instances; and 4.	your request logs and other data necessary for AWS to validate your claimed outage**.",0,0,0,0,1,0,0
+"If a claim under the Region-Level or Instance-Level SLA is confirmed by us as valid, we will issue you a Service Credit within one billing cycle following the month in which your request is confirmed by us.",0,0,0,0,1,0,0
+"Your failure to provide the requested and other information as required above will disqualify you from receiving a Service Credit.",0,0,0,0,1,0,0
+"Unless otherwise provided in the Agreement, this SLA sets forth your sole and exclusive remedies, and AWS’ sole and exclusive obligations, for any unavailability, non-performance, or other failure by us to provide Amazon EC2.",0,0,0,0,1,0,0
+"The Region-Level SLA and Instance-Level SLA, respectively, do not apply to any unavailability, suspension or termination of Amazon EC2, or any other Amazon EC2performance issues, directly or indirectly: (i) caused by factors outside of our reasonable control, including any force majeure event or Internet access or related problems beyond the demarcation point of Amazon EC2; (ii) that result from any actions or inactions of you, including failure to acknowledge a recovery volume or respond to resource health concerns; (iii) that result from your equipment, software or other technology; or (iv) arising from our suspension or termination of your right to use the applicable Amazon EC2 in accordance with the Agreement (collectively, the “Amazon Compute SLA Exclusions”).",0,0,0,0,0,1,0
+"If availability is impacted by factors other than those used in our Monthly Uptime Percentage or Instance-Level Uptime Percentage calculation, then we may issue a Service Credit considering such factors at our discretion.",0,0,0,0,0,1,0
+"•	“Availability Zone” and “AZ” mean an isolated location within an AWS region identified by a letter identifier following the AWS region code (e.g., us-west-1a).",1,0,0,0,0,0,1
+"•	“Monthly Uptime Percentage” is calculated by subtracting from 100% the percentage of minutes during the month in which Amazon EC2 was in the state of Unavailability.",0,1,0,0,0,0,1
+"•	“Instance-Level Uptime Percentage” is calculated by subtracting from 100% the percentage of minutes during the month in which a Single EC2 Instance was in the state of Unavailability.",0,1,0,0,0,0,1
+"•	A “Service Credit” is a dollar credit, calculated as set forth above, that we may credit back to an eligible account.",0,0,0,1,0,0,1
+"•	“Unavailable” and “Unavailability” mean:",0,1,0,0,0,0,1
+"o	For the Instance-Level SLA, your Single EC2 Instance has no external connectivity.",0,0,0,0,0,0,1
+"o	For the Region-Level SLA applicable to Amazon EC2, when all of your running instances deployed in two or more AZs in the same AWS region (or, if there is only one AZ in the AWS region, that AZ and an AZ in another AWS region) concurrently have no external connectivity.",0,0,0,0,0,0,1
+"App Engine Service Level Agreement (SLA) During the Term of the agreement under which Google has agreed to provide Google Cloud Platform to Customer (as applicable, the ""Agreement"")",1,0,0,0,0,0,0
+"the Covered Service will provide a Monthly Uptime Percentage to Customer of at least 99.95% (the ""Service Level Objective"" or ""SLO"").",0,1,1,0,0,0,0
+"If Google does not meet the SLO, and if Customer meets its obligations under this SLA, Customer will be eligible to receive the Financial Credits described below.",0,0,0,1,0,0,0
+"This SLA states Customer's sole and exclusive remedy for any failure by Google to meet the SLO.",0,0,1,1,0,0,0
+"Capitalized terms used in this SLA, but not defined in this SLA, have the meaning set forth in the Agreement.",0,0,0,0,0,0,1
+"If the Agreement authorizes the resale or supply of Google Cloud Platform under a Google Cloud partner or reseller program, then all references to Customer in this SLA mean Partner or Reseller (as applicable), and any Financial Credit(s) will only apply for impacted Partner or Reseller order(s) under the Agreement.  ",0,0,0,1,0,0,0
+"The following definitions apply to the App Engine SLA:  ""Covered Service"" means the components of the Service listed at the following URL: https://cloud.google.com/appengine/sla_error_rate, or such other URL as may be provided by Google.",1,0,0,0,0,0,0
+"""Downtime"" means more than a ten percent Error Rate.",0,1,0,0,0,0,1
+"""Downtime Period"" means, for a Customer Application, a period of five consecutive minutes of Downtime.",0,1,0,0,0,0,1
+"Intermittent Downtime for a period of less than five minutes will not be counted towards any Downtime Periods.",0,0,0,0,0,0,1
+"""Error rate"" for the Service is defined with the Covered Services.",1,0,0,0,0,0,0
+"""Financial Credit"" means the following: Monthly Uptime Percentage	Percentage of monthly bill for Covered Service which does not meet SLO that will be credited to future monthly bills of Customer 99.00% – < 99.95%	10% 95.00% – < 99.00%	25% < 95.00%	50% ",0,0,1,1,0,0,0
+"Monthly Uptime Percentage"" means total number of minutes in a month, minus the number of minutes of Downtime suffered from all Downtime Periods in a month, divided by the total number of minutes in a month.",0,1,0,0,0,0,0
+"Customer Must Request Financial Credit.",0,0,0,0,1,0,0
+"In order to receive any of the Financial Credits described above, Customer must notify Google technical support within thirty days from the time Customer becomes eligible to receive a Financial Credit.",0,0,0,0,1,0,0
+"Failure to comply with this requirement will forfeit Customer’s right to receive a Financial Credit.  ",0,0,0,0,1,0,0
+"Maximum Financial Credit. The aggregate maximum number of Financial Credits to be issued by Google to Customer for any and all Downtime Periods that occur in a single billing month will not exceed 50% of the amount due by Customer for the use of the Covered Service for the applicable month.",0,0,0,1,0,0,0
+"Financial Credits will be made in the form of a monetary credit applied to future use of the Service and will be applied within 60 days after the Financial Credit was requested.",0,0,0,1,0,0,0
