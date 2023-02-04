@@ -1,0 +1,129 @@
+Oracle Cloud Infrastructure - Database Cloud
+The following table indicates which types of Service Level Agreements are applicable to an Oracle Cloud
+Infrastructure - Database Cloud Service SKU as indicated below by an “X” in the “Type of Service Level
+Agreement” column:
+SKU CLOUD SERVICE
+TYPE OF SERVICE LEVEL AGREEMENT
+AVAILABILITY MANAGEABILITY PERFORMANCE
+B88290
+Oracle Database Cloud Service -
+Enterprise Edition - General Purpose -
+OCPU Per Hour
+X X
+B88291
+Oracle Database Cloud Service -
+Enterprise Edition Extreme Performance
+- General Purpose - OCPU Per Hour
+X X
+B88292
+Oracle Database Cloud Service -
+Enterprise Edition High Performance -
+General Purpose - OCPU Per Hour
+X X
+B88293
+Oracle Database Cloud Service -
+Standard Edition - General Purpose -
+OCPU Per Hour
+X X
+B88328
+Oracle Cloud Infrastructure - Database
+Enterprise Edition - Additional Capacity -
+OCPU Per Hour
+X X
+B88329
+Oracle Cloud Infrastructure - Database
+Enterprise Edition High Performance -
+Additional Capacity - OCPU Per Hour
+X X
+B88330
+Oracle Cloud Infrastructure - Database
+Enterprise Edition Extreme Performance
+- Additional Capacity - OCPU Per Hour
+X X
+Oracle PaaS and IaaS Public Cloud Services Pillar Document | December 2022 Page 35 of 108
+SKU CLOUD SERVICE
+TYPE OF SERVICE LEVEL AGREEMENT
+AVAILABILITY MANAGEABILITY PERFORMANCE
+B88331
+Oracle Cloud Infrastructure - Database
+Standard Edition - Additional Capacity -
+OCPU Per Hour
+X X
+B88404 Oracle Database Cloud Service - All
+Editions - BYOL - OCPU Per Hour X X
+B88846
+Oracle Cloud Infrastructure - Database
+All Editions - Additional Capacity - BYOL
+- OCPU Per Hour
+X X
+B90569
+Oracle Cloud Infrastructure - Database
+Cloud Service - Standard Edition - OCPU
+Per Hour
+X X
+B90570
+Oracle Cloud Infrastructure - Database
+Cloud Service - Enterprise Edition -
+OCPU Per Hour
+X X
+B90571
+Oracle Cloud Infrastructure - Database
+Cloud Service - Enterprise Edition High
+Performance - OCPU Per Hour
+X X
+B90572
+Oracle Cloud Infrastructure - Database
+Cloud Service - Enterprise Edition
+Extreme Performance - OCPU Per Hour
+X X
+B90573
+Oracle Cloud Infrastructure - Database
+Cloud Service - All Editions - BYOL -
+OCPU Per Hour
+X X
+Availability Service Level Agreement
+With respect to a Cloud Service listed above for which the Availability Service Level Agreement under
+this subsection applies, Oracle will use commercially reasonable efforts to have each such Service
+available with a Monthly Uptime Percentage (as defined below) of at least 99.9% during any calendar
+month (the “Service Commitment”). In the event an applicable Cloud Service listed above does not meet
+its Service Commitment for the Availability Service Level Agreement under this subsection, You will be
+eligible to receive Service Credits for such Non-Compliant Service, with the Service Credit Percentage
+determined as follows:
+Monthly Uptime Percentage Service Credit Percentage
+Less than 99.9% but equal to or greater than 99.0% 10%
+Less than 99.0% but equal to or greater than 95.0% 25%
+Less than 95.0% 100%
+Oracle PaaS and IaaS Public Cloud Services Pillar Document | December 2022 Page 36 of 108
+The following terms apply to the Availability Service Level Agreement for the applicable Cloud Services
+listed above:
+ “Monthly Uptime Percentage” is calculated by subtracting from 100%, the percentage of
+minutes during the calendar month in which the applicable Cloud Service was Unavailable (as
+defined below).
+ “Unavailable” means, on a per-Availability Domain basis, any time when: (i) no virtual machine
+(or, where applicable, none of the virtual machines in a Real Application Cluster (RAC)
+configuration) of the applicable Cloud Service is able to receive a network connection from an
+application or a user, and (ii) no I/O operation can be issued to the block storage of such Cloud
+Service. This excludes circumstances resulting directly or indirectly from any Common
+Exclusion.
+Manageability Service Level Agreement
+With respect to a Cloud Service listed above for which the Manageability Service Level Agreement under
+this subsection applies, Oracle will use commercially reasonable efforts to have each such Service
+available with a Monthly Uptime Percentage (as defined below) of at least 99.9% during any calendar
+month (the “Service Commitment”). In the event an applicable Cloud Service listed above does not meet
+its Service Commitment for the Manageability Service Level Agreement under this subsection, You will
+be eligible to receive Service Credits for such Non-Compliant Service, with the Service Credit Percentage
+determined as follows:
+Monthly Uptime Percentage Service Credit Percentage
+Less than 99.9% but equal to or greater than 99.0% 10%
+Less than 99.0% but equal to or greater than 95.0% 25%
+Less than 95.0% 100%
+The following terms apply to the Manageability Service Level Agreement for the applicable Cloud
+Services listed above:
+ “Control Plane API Error Rate” means, on a per Availability Domain basis, the percentage value
+corresponding to: (i) the total number of internal server errors returned by the applicable Cloud
+Service with an error status of “Internal Service Error” or “Service Unavailable” in a five-minute
+period during a calendar month divided by, (ii) the total number of Control Plane API requests
+made to such Cloud Service in such five-minute period. This excludes circumstances resulting
+directly or indirectly from any Common Exclusion.
+ “Monthly Uptime Percentage” is calculated by subtracting from 100%, the average of the Control
+Plane API Error Rate for each five-minute period during the applicable calendar month.

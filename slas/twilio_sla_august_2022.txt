@@ -1,0 +1,58 @@
+Service Level Agreement
+Last Updated: August 1, 2022
+
+1. Definitions. The following defined terms apply to this Service Level Agreement for the Services APIs (as defined below) (“SLA”).
+
+“Actual Monthly Uptime Percentage” = (A-B+C)/A, where:
+
+A = Total Monthly Time (as defined below);
+B = Unavailable Monthly Time (as defined below); and
+C = Excluded Monthly Times (as defined below).
+“Monthly Uptime Percentage Threshold” means the applicable percentage set forth in the table in Section 2 (Service Commitments) of this SLA under the heading, “Monthly Uptime Percentage Threshold.”
+
+“SendGrid Services API” means the Mail Send application programming interface for the services branded as “SendGrid” or “Twilio SendGrid”.
+
+“Services APIs” means, collectively, the Twilio Services APIs (as defined below) and SendGrid Services API.
+
+“Service Credit” means the credit that Customer is eligible to request pursuant to Section 4 (Service Credit Request) of this SLA if (a) the Actual Monthly Uptime Percentage is less than the applicable Monthly Uptime Percentage Threshold or (b) there is a failure to achieve a Successful Connection Rate (as defined below). A Service Credit is calculated by multiplying the applicable percentage set forth in Section 2 (Service Commitments) of this SLA by (x) the fees Customer actually incurs for the affected Twilio Services APIs or (y) Customer’s email package fees for the affected SendGrid Services API, in either case, for the applicable calendar month.
+
+“Successful Connection Rate” means, in the applicable calendar month, a Web API v3 Mail send request by Customer that returns a “202” accepted response at a rate of at least, (a) with respect to emails originating from North America or South America, fifteen thousand (15,000) requests per second or (b) with respect to emails originating outside of North America or South America, ten thousand (10,000) requests per second. A Successful Connection Rate is conditioned on (x) Customer utilizing a sufficient number of concurrent connections to support such Successful Connection Rate; (y) Customer’s send requests not exceeding (i) with respect to emails originating from North America or South America, six (6) gigabits per second in the aggregate or (ii) with respect to emails originating outside of North America or South America, four (4) gigabits per second in the aggregate; and (z) Customer honoring Twilio's then-current time-to-live value for domain name system lookups of the Web API v3 Mail send address.
+
+“Total Monthly Time” means the total number of minutes in the applicable calendar month.
+
+“Twilio Services APIs” means the application programming interfaces branded as “Twilio”.
+
+“Unavailable Monthly Time” means the number of minutes in the applicable calendar month during which the Twilio Services APIs or SendGrid Services API, as applicable, were unavailable for use.
+
+2. Service Commitments
+
+Applicable APIs	Monthly Uptime Percentage Threshold	Service Credit
+Services APIs
+
+99.95%
+
+10% credit equivalent
+
+Twilio Services APIs during the calendar months in which Customer has purchased the Twilio Administration Edition or Twilio Enterprise Edition
+
+99.99%
+
+10% credit equivalent
+
+SendGrid Services API during the calendar months in which Customer has purchased the Email Strategy - Gold, Enterprise Program Management, or Enterprise Program Management & Strategy package
+
+99.99%
+
+10% credit equivalent
+
+Furthermore, if Twilio fails to achieve a Successful Connection Rate for the SendGrid Services API during the calendar months in which Customer has purchased the Email Strategy - Gold, Enterprise Program Management, or Enterprise Program Management & Strategy package, Customer will be eligible to request a Service Credit equal to ten percent (10%).
+
+3. Status Notifications. Customer may subscribe to email notifications for status updates at https://status.twilio.com for the Twilio Services APIs and https://status.sendgrid.com for the SendGrid Services API. Customer has the right, exercisable no more than once (1) per calendar month during the time period in which Customer has purchased the Email Strategy - Gold, Enterprise Program Management, or Enterprise Program Management & Strategy package, to request a report from Twilio indicating the Successful Connection Rate applicable to Customer’s email sends during the previous thirty (30) days.
+
+4. Service Credit Request. To receive a Service Credit, Customer must submit a request to Customer Support via https://www.twilio.com/help/contact for the Twilio Services APIs and https://support.sendgrid.com for the SendGrid Services API within thirty (30) days from the last day of the calendar month in which Customer claims Twilio failed to meet the applicable Monthly Uptime Percentage Threshold or achieve a Successful Connection Rate. All submissions must include: (a) “SLA Claim” as the subject of the ticket; (b) the dates and times of (i) Unavailable Monthly Time calculated based on the status page available at https://status.twilio.com for the Twilio Services APIs and https://status.sendgrid.com for the SendGrid Services API or (ii) the failure to achieve a Successful Connection Rate; and (c) any documentation of the Unavailable Monthly Time or failure to achieve a Successful Connection Rate. Any Service Credit will be applied to future amounts payable by Customer to Twilio for the Services APIs. Service Credits are not available in the form of refunds.
+
+5. Exclusions. Notwithstanding anything to the contrary in this Agreement, no Unavailable Monthly Time will be deemed to have occurred if it: (a) is caused by factors outside of Twilio’s reasonable control, including, without limitation, telecommunications provider-related problems or issues, Internet access or related problems occurring beyond the point in the network where Twilio maintains access and control over the Services APIs; (b) results from any actions or inactions of Customer or any third party (except for Twilio’s agents and subcontractors); (c) results from any Customer Application(s), Customer’s equipment, software, or other technology, add-on services, or third-party equipment, software, or other technology (except for equipment within Twilio’s direct control); (d) occurs during Twilio’s scheduled maintenance for which Twilio will provide at least twenty-four (24) hours prior notice; (e) occurs during Twilio’s emergency maintenance (maintenance that is necessary for purposes of maintaining the integrity or operation of the Services APIs), regardless of the notice provided by Twilio; (f) results from any Services APIs that are identified as alpha, beta, not generally available, limited release, developer preview, or any similar Services APIs offered by Twilio; or (g) is less than five (5) minutes of continuous unavailability in duration (collectively, “Excluded Monthly Times”). This SLA will not apply to any services or application programming interfaces branded as “Segment” or “Twilio Segment” (“Segment Services”). The service level agreement for the Segment Services is available at https://www.segment.com/legal/sla.
+
+6. Entire SLA Liability. The Service Credits set forth in this SLA are Twilio’s sole and entire liability to Customer, and Customer’s sole and exclusive remedy, for Twilio’s failure to meet any Monthly Uptime Percentage Threshold or achieve any Successful Connection Rate.
+
+7. Updates. Twilio may update this SLA from time to time. The then-current terms of this SLA are available at https://www.twilio.com/legal/service-level-agreement.
