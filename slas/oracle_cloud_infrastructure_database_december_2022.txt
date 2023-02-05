@@ -1,4 +1,4 @@
-Oracle Cloud Infrastructure - Database Cloud
+https://www.oracle.com/assets/paas-iaas-pub-cld-srvs-pillar-4021422.pdf
 The following table indicates which types of Service Level Agreements are applicable to an Oracle Cloud
 Infrastructure - Database Cloud Service SKU as indicated below by an “X” in the “Type of Service Level
 Agreement” column:
